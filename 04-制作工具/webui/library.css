@@ -1,0 +1,25 @@
+.import-dialog,.layout-dialog{border:0;border-radius:10px;background:var(--surface);color:var(--ink);padding:0;max-height:94dvh}
+.import-dialog{width:min(560px,94vw)}
+.layout-dialog{width:min(1040px,96vw)}
+.import-dialog::backdrop,.layout-dialog::backdrop{background:rgba(19,30,42,.8)}
+#import-form{padding:8px 24px 24px}
+#import-form label,#layout-form>label{display:grid;gap:7px;margin:14px 0;font-size:14px}
+#import-form input:not([type=file]),#import-form select,#layout-form select,.layout-values input{min-height:38px;width:100%;max-width:none;background:white;border:1px solid var(--line);border-radius:5px;padding:7px;color:var(--ink)}
+.import-help{font-size:13px;line-height:1.7;color:var(--muted)}
+#import-form summary{cursor:pointer;font-size:13px;padding:8px 0}
+#import-status,#layout-status{font-size:13px;line-height:1.6;white-space:pre-wrap}
+[data-error=true]{color:var(--error)}
+.layout-workspace{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:24px;padding:0 24px 24px}
+.layout-stage-wrap{min-width:0;display:flex;justify-content:center;background:#e6e7e3;padding:12px}
+#layout-stage{position:relative;width:min(100%,440px);align-self:start;touch-action:none;user-select:none}
+#layout-image{display:block;width:100%;height:auto;pointer-events:none}
+#layout-boxes{position:absolute;inset:0}
+.layout-box{position:absolute;border:2px solid #366da0;background:#366da025;cursor:move;touch-action:none}
+.layout-box.active{border-color:#ae5229;background:#ae522935;z-index:1}
+.layout-box>span{position:absolute;top:-19px;left:0;white-space:nowrap;font-size:11px;background:#fff;line-height:17px;padding:0 3px}
+.layout-grip{position:absolute;right:-6px;bottom:-6px;width:13px;height:13px;background:white;border:2px solid currentColor;cursor:nwse-resize}
+.layout-values{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.layout-values label{font-size:12px}
+#layout-color{width:70px;height:34px;border:1px solid var(--line)}
+#export-location{font-size:13px;overflow-wrap:anywhere;color:var(--muted)}
+@media(max-width:650px){.layout-workspace{grid-template-columns:1fr}.layout-stage-wrap{max-height:none}#layout-stage{max-width:320px}}

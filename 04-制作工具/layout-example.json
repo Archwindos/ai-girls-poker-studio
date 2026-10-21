@@ -1,0 +1,10 @@
+{
+  "coordinate_system": "normalized_xyxy",
+  "top_index_box": [0.055, 0.045, 0.160, 0.220],
+  "bottom_index_box": [0.840, 0.775, 0.945, 0.950],
+  "name_boxes": [
+    {"box": [0.370, 0.025, 0.630, 0.052], "rotation_deg": 0},
+    {"box": [0.370, 0.948, 0.630, 0.975], "rotation_deg": 180}
+  ],
+  "name_color": "#34494C"
+}

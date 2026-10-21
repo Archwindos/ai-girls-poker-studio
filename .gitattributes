@@ -1,0 +1,2 @@
+# Preserve exact file bytes for the release SHA256 manifest.
+* -text

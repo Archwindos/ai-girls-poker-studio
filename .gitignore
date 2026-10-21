@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.log
+*.lock
+.preview-cache/
+04-制作工具/last-runtime.json
+04-制作工具/webui/server.pid
+05-制作记录/当前状态/active-runtime.json
+01-发布成品/当前选择/
+01-发布成品/导出批次/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,84 @@
+{
+  "slots": {
+    "llama": {
+      "black": "LLAMA-03",
+      "red": "LLAMA-05"
+    },
+    "hunyuan": {
+      "black": "HUNYUAN-03",
+      "red": "HUNYUAN-04"
+    },
+    "minimax": {
+      "black": "MINIMAX-01",
+      "red": "MINIMAX-04"
+    },
+    "mistral": {
+      "black": "MISTRAL-03",
+      "red": "MISTRAL-02"
+    },
+    "ernie": {
+      "black": "ERNIE-03",
+      "red": "ERNIE-04"
+    },
+    "qwen": {
+      "black": "QWEN-03",
+      "red": "QWEN-01"
+    },
+    "glm": {
+      "black": "GLM-03",
+      "red": "GLM-01"
+    },
+    "kimi": {
+      "black": "KIMI-03",
+      "red": "KIMI-01"
+    },
+    "grok": {
+      "black": "GROK-03",
+      "red": "GROK-04"
+    },
+    "deepseek": {
+      "black": "DEEPSEEK-03",
+      "red": "DEEPSEEK-02"
+    },
+    "gemini": {
+      "black": "GEMINI-01",
+      "red": "GEMINI-02"
+    },
+    "gpt": {
+      "black": "GPT-01",
+      "red": "GPT-02"
+    },
+    "claude": {
+      "black": "CLAUDE-07",
+      "red": "CLAUDE-01"
+    },
+    "doubao": {
+      "black": "DOUBAO-01",
+      "red": "DOUBAO-02"
+    }
+  },
+  "back": "back-v7",
+  "box": {
+    "front": "box-front",
+    "back": "box-back",
+    "left": "box-left",
+    "right": "box-right",
+    "top": "box-top",
+    "bottom": "box-bottom"
+  },
+  "settings": {
+    "card_width_mm": 63,
+    "card_height_mm": 88,
+    "bleed_mm": 3,
+    "dpi": 300,
+    "safe_mm": 3,
+    "box_width_mm": 65,
+    "box_height_mm": 90,
+    "box_depth_mm": 18
+  },
+  "schema_version": 1,
+  "version": 7,
+  "mapping_version": "v3-grok9-geminiJ-20261019",
+  "updated_at": "2026-10-19T08:31:37.249304+00:00",
+  "selection_revision": 7
+}
