@@ -30,7 +30,7 @@ cd ai-girls-poker-studio
 
 ```powershell
 python -m venv .venv
-.\.venv\Scripts\python.exe -m pip install -r 04-制作工具equirements.txt
+.\.venv\Scripts\python.exe -m pip install -r 04-制作工具\requirements.txt
 ```
 
 然后双击 **启动选图.cmd**，打开本地WebUI。启动器会寻找空闲端口，以它打开的地址为准。
